@@ -1,0 +1,6 @@
+#selectAnswers div {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+}
