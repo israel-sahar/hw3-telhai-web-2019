@@ -1,6 +1,99 @@
+@font-face {
+    src: url(fonts/Oxygen-Bold.ttf);
+    font-family: oxygen;
+}
+
+#trivia {
+    background-image: url("trivia.jpg");
+    height: 609px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #dedede;
+    font-family: oxygen;
+}
+
+#score {
+    border: 1px #f4511e;
+    background-color: #eeeeee;
+    text-align: center;
+    font-weight: bolder;
+    color: #f4511e;
+    font-family: oxygen;
+}
+
+#output {
+    font-family: 'Sigmar One', cursive;
+    color: black;
+    border: 1px #f4511e;
+    border-style: solid;
+    background-color: #f4511e;
+    border-width: thick;
+    font-weight: bolder;
+}
+
 #selectAnswers div {
-    border: 1px solid black;
+    font-family: 'Sigmar One', cursive;
+    color: white;
+    border: 1px #f4511e;
+    border-style: solid;
+    background-color: #f4511e;
+    border-width: thick;
     padding: 10px;
     margin: 5px;
     display: inline-block;
+}
+
+#b1 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#b1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#b1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#b1:hover span {
+    padding-right: 25px;
+}
+
+#b1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#home {
+    position: absolute;
+    right: 20px;
+    top: 46px;
+    width: 75px;
+    max-width: 100%;
+    height: auto;
+}
+
+#selectAnswers {
+    font-family: oxygen;
+    font-weight: bolder
 }

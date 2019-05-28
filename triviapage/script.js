@@ -1,8 +1,4 @@
 $(document).ready(function () {
-    $('#b2').click(function () {
-        window.location.replace("../jokespage/jokespage.html");
-        
-    })
     var btn = document.getElementById('b1');
     btn.addEventListener('click', nextitem)
     b2.style.display = 'none'
