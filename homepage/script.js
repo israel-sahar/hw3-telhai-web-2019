@@ -37,7 +37,7 @@ $(document).ready(function(){
         }
         else
         {
-            $('.main-div').hide()
+            window.location.replace("../triviapage/triviapage.html");
         }
 
     })
