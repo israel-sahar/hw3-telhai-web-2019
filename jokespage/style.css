@@ -1,0 +1,130 @@
+#move{
+    
+    color: blue;
+    transition: width 2s;
+}
+
+.jokeBox{
+    box-shadow: 10px 10px 5px#b3b3b3;
+    opacity: 0;
+    animation-name: opacityOn;
+    animation: opacityOn 1s normal forwards step-end;
+    animation-delay: 1.5s;
+    animation-duration: 0.5s;
+    
+  }
+
+  @keyframes opacityOn {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.1;
+    }
+    25% {
+        opacity: 0.2;
+    }
+
+    35% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    75% {
+        opacity: 0.6;
+    }
+    85%{
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.congrats{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    text-shadow: 0.1px 0.1px 0.1px whitesmoke,
+     0 0 5px DodgerBlue,
+      0 0 5px DodgerBlue;
+      animation-name: example;
+      animation-duration: 1s;
+      
+
+}
+@keyframes example {
+    0%   {opacity: 0;}
+    25% {opacity: 0.25; }
+    50% {opacity: 0.5; }
+    100% {opacity: 1; }
+  }
+  .jumbotron{
+      color: white;
+      background-color: #f3570c;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  #theJoke{
+
+
+  }
+  .bluebtn{
+    opacity: 0;
+    
+    animation-name: apearring;
+    animation: opacityOn 1s normal forwards step-end;
+    animation-delay: 5s;
+    animation-duration: 0.5s;
+    
+
+  }
+
+  @keyframes apearring{
+    0%   {opacity: 0; }
+    25% {opacity: 0.25;  }
+    50% {opacity: 0.5; }
+    100% {opacity: 1; }
+
+  }
+
+  .imgC{
+    height: 300px;
+    opacity: 0;
+    animation-name: chucki;
+    animation: chucki 1s normal forwards step-end;
+    animation-delay: 3s;
+    animation-duration: 0.5s;
+
+
+
+
+  }
+
+  @keyframes chucki {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.1;
+    }
+    25% {
+        opacity: 0.2;
+    }
+
+    35% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    75% {
+        opacity: 0.6;
+    }
+    85%{
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
