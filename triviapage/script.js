@@ -54,10 +54,11 @@ $(document).ready(function () {
             selectAnswers.innerHTML = 'Wrong, the right answer was: '+corrAnswerValue
         }
         document.getElementById('score').innerHTML = 'Correct ' + answers.correct + ' Wrong ' + answers.wrong
-        if(questionCounter == 3 && answers.correct == 3)
+        if(questionCounter == 3)
         {
+            if(answers.correct == 3)
             b2.style.display = 'block'
-            if(answers.correc != 3)
+            else
             {
             selectAnswers.innerHTML = 'you have to answer all the questions currectlly, your score was: '+ answers.correct+' out of 3'
             b1.innerHTML = 'try again'
