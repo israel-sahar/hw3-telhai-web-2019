@@ -3,7 +3,6 @@ $(document).ready(function(){
 
 var urlStr1 = 'http://api.icndb.com/jokes/random?firstName=';
 var urlStr2 = '&lastName=' ;
-$(localStorage.setItem("name","rave"))
 var fullName = $(localStorage.getItem("name"));
 var nameArr = fullName.selector.split(" ") ;
 var firstName = nameArr[0];
