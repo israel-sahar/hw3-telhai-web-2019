@@ -1,4 +1,4 @@
- localStorage.clear();
+ //localStorage.clear();
 $(document).ready(function(){
     $('#sgnbtn').click(function(){
         if($('#textbox').val()=="")
