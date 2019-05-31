@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
 
 var urlStr1 = 'http://api.icndb.com/jokes/random?firstName=';
 var urlStr2 = '&lastName=' ;
@@ -25,6 +26,9 @@ $.ajax({
         console.log(err);
     }
 });
+
+
+
 
 
 
