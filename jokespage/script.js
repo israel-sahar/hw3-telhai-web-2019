@@ -14,7 +14,7 @@ var fullUrl = urlStr1.concat(firstName).concat(urlStr2).concat(lastName);
 
 //ajax
 $.ajax({
-    url: fullUrl,
+    url: urlStr1.concat(firstName).concat(urlStr2).concat(lastName),
     type: "get",
     success: function(data){
         $(".lead").html(
