@@ -5,7 +5,7 @@ var fullName = $(localStorage.getItem("name"));
 var nameArr = fullName.selector.split(" ") ;
 var firstName = nameArr[0];
 var lastName = nameArr[1];
-if(lastName == 'undefined'){
+if(lastName == undefined){
     lastName = 'Banana';
 }
 //ajax
