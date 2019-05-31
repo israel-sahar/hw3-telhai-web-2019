@@ -18,7 +18,7 @@ $(document).ready(function(){
     })
 
     $('#lgnbtn').click(function(){
-      localStorage.getItem('name')
+      var nameU=localStorage.getItem('name')
         if($('#textbox').val()=="")
         {
               $('.msg').text('Login Failed, Empty Name')
@@ -28,7 +28,7 @@ $(document).ready(function(){
               return;
         }
 
-        if(localStorage.getItem('name')==null)
+        if(nameU!=$('#textbox').val())
         {
             $('.msg').text('Login Failed, Name Not in Storage')
               setTimeout(function(){
