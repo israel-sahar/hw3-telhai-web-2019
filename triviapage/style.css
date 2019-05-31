@@ -17,7 +17,7 @@
     border: 1px #f4511e;
     background-color: #eeeeee;
     text-align: center;
-    font-weight: bolder;
+    
     color: #f4511e;
     font-family: oxygen;
 }
@@ -29,7 +29,7 @@
     border-style: solid;
     background-color: #f4511e;
     border-width: thick;
-    font-weight: bolder;
+    
 }
 
 #selectAnswers div {
@@ -95,6 +95,6 @@
 
 #selectAnswers {
     font-family: oxygen;
-    font-weight: bolder;
-    color:white;
+    
+    color:#f4511e;
 }
