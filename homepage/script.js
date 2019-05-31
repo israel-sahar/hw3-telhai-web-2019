@@ -1,7 +1,6 @@
  localStorage.clear();
 $(document).ready(function(){
     $('#sgnbtn').click(function(){
-        console.log($('#textbox').val())
         if($('#textbox').val()=="")
         {
               $('.msg').text('SignUp Failed, Empty Name')

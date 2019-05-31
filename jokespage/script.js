@@ -1,8 +1,6 @@
 $(document).ready(function(){
     
 
-var urlStr1 = 'http://api.icndb.com/jokes/random?firstName='
-var urlStr2 = '&lastName=' ;
 var fullName = $(localStorage.getItem("name"));
 var nameArr = fullName.selector.split(" ") ;
 var firstName = nameArr[0];
@@ -10,8 +8,6 @@ var lastName = nameArr[1];
 if(lastName == undefined){
     lastName = 'Banana';
 }
-var fullUrl = urlStr1.concat(firstName).concat(urlStr2).concat(lastName);
-console.log(firstName+' '+lastName)
 //ajax
 $.ajax({
     
