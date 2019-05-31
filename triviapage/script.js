@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    console.log(localStorage.getItem('name'))
     var btn = document.getElementById('b1');
     btn.addEventListener('click', nextitem)
     b2.style.display = 'none'
